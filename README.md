@@ -19,3 +19,7 @@ For this to work you either need to locally modify Arduino-IRremote to run at 38
 
 ```
 
+TODO:
+1. Add circuit diagram.
+2. Re-test with forked Arduino-IRremote
+3. Confirm 38kHz carrier.

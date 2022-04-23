@@ -82,7 +82,6 @@ void setup() {
   Serial.print(F("Ready to send IR signals at pin "));
   Serial.println(IR_SEND_PIN);
 
-  //IrSender.enableIROut(38); // Call it with 38 kHz to initialize the values printed below
   Serial.print(F("Send signal mark duration is "));
   Serial.print(IrSender.periodOnTimeMicros);
   Serial.print(F(" us, pulse correction is "));
